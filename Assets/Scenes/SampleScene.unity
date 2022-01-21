@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 79660935}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -170,8 +170,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.2410965, y: 1, z: 1.4358215}
+  m_Center: {x: -0.033878326, y: 0, z: -0.026428223}
 --- !u!23 &79660932
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -465,6 +465,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 2118495461}
   umbral: 40
+--- !u!1 &627168534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3627185856205463917, guid: 53b4c0a0e64f21b43b2e7560e6680bee,
+    type: 3}
+  m_PrefabInstance: {fileID: 1147132976}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,7 +591,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735070628}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.11, y: 0.445, z: 0.229}
+  m_LocalPosition: {x: -0.11, y: 0.36, z: 0.12}
   m_LocalScale: {x: 0.64992136, y: 0.3853, z: 0.5492379}
   m_Children: []
   m_Father: {fileID: 79660930}
@@ -730,7 +736,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.19999695, y: 1.9000001, z: -4.096}
+  m_LocalPosition: {x: 0.86, y: 1.9000001, z: -5.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2118495461}
@@ -1138,7 +1144,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.620224
+  m_Radius: 1
   m_Center: {x: 0, y: 0, z: -0.013687134}
 --- !u!23 &1398674360
 MeshRenderer:
@@ -1217,8 +1223,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jugador: {fileID: 79660929}
   jugador_posicion: {fileID: 2118495459}
-  camara: {fileID: 963194225}
   posicion: {x: -49.6, y: 0, z: 186.3}
+  arbol: {fileID: 627168534}
 --- !u!1 &1651675507
 GameObject:
   m_ObjectHideFlags: 0
